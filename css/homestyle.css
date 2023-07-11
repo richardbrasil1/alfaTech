@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -74,6 +75,11 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+.container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+}
 
 .container-topo {
     background-color: white;
@@ -91,50 +97,46 @@
     justify-content: space-between;
 }
 
-.container-links a {
-    font-size: 18px;
-    padding: 0x 10px;
-    color: #233032;
-    font-weight: 600;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
 #banner {
     background-color: #2f86d6;
+    padding: 50px 0px;
 }
 
 .container-banner {
-    padding: 180px 0px;
-    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.container-banner div {
+.container-texto {
     color: #fff;
-    width: 470px;
+    padding: 10px 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex: 1 1 308px;
 
 }
 
-.container-banner div p {
+.container-texto p {
     font-size: 16px;
-    color: #fff;
     line-height: 26px;
-    word-spacing: 3px;
 }
 
-
-.container-banner div h2 {
+.container-texto h2 {
     font-size: 28px;
-    color: #fff;
     line-height: 40px;
-    margin: 20px 0px;
 }
 
-.container-banner img {
-    width: 50%;
-    position: absolute;
-    top: 100px;
-    right: 0px;
+.container-imagem {
+    flex: 1 1 468px;
+}
+
+.container-imagem img {
+    width: 100%;
 }
 
 .primeiro-anuncio {
